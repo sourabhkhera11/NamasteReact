@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 const ele = React.createElement("h1", {}, "Hello World from REACT!");
 /* {} is used to pass an attribute to react elements  */
 console.log(ele); //is just an object
