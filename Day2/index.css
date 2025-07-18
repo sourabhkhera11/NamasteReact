@@ -1,0 +1,31 @@
+/* id -  # and class . */
+.headerCon {
+  display: flex;
+  border: 2px solid black;
+}
+.headerLogo img {
+  width: 100px;
+}
+.headerList ul {
+  display: flex;
+  justify-content: right;
+  gap: 100px;
+  list-style-type: none;
+}
+.headerList li {
+  justify-content: space-around;
+}
+
+.rcard{
+    border: 1px solid black;
+    max-width: fit-content;
+    padding: 12px;
+    margin: 12px;
+    text-align: center;
+    background-color: #f0f0f0;
+    display:inline-block;
+    flex-wrap: wrap;
+}
+.rcard:hover{
+    border: 2px solid black;
+}

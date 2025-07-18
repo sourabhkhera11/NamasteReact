@@ -1,4 +1,4 @@
-Day1/node_modules
+*/node_modules
 *.pdf
-Day1/.parcel-cache
-Day1/dist
+*/.parcel-cache
+*/dist
