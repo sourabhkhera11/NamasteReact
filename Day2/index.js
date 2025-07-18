@@ -38,38 +38,40 @@ const Header = () => {
   );
 };
 
-const Rcard = () => {
+//props -> properties
+//dynamic properties passess to the components just like you are passing the parameters to the function
+//props is the object containing all the paramertes we pass
+//all the js code should be in the {}
+const Rcard = (props) => {
+  const { resName, cuisine, rating, costfortwo } = props;
   return (
     <div className="rcard">
-      <h2>Priya rest</h2>
-      <h3>Chinese, Italian</h3>
-      <h3>4.9</h3>
-      <h3>Contact</h3>
+      <img
+        alt="headerLogo"
+        src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png"
+      />
+      <h2>{resName}</h2>
+      <h3>{cuisine}</h3>
+      <h3>{rating}</h3>
+      <h3>Cost for two {costfortwo}INR</h3>
     </div>
   );
 };
 const Body = () => {
   return (
     <div className="RestCon">
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
-      <Rcard />
+      <Rcard
+        resName="Priya Restaurant"
+        cuisine="Chinese, Italian"
+        rating="4.9"
+        costfortwo="400"
+      />
+      <Rcard
+        resName="Sourabh Restaurant"
+        cuisine="Punjabi"
+        rating="5"
+        costfortwo="1000"
+      />
     </div>
   );
 };

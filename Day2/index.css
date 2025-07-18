@@ -16,16 +16,20 @@
   justify-content: space-around;
 }
 
-.rcard{
-    border: 1px solid black;
-    max-width: fit-content;
-    padding: 12px;
-    margin: 12px;
-    text-align: center;
-    background-color: #f0f0f0;
-    display:inline-block;
-    flex-wrap: wrap;
+.rcard {
+  border: 1px solid black;
+  width: 300px;
+  padding: 12px;
+  margin: 12px;
+  text-align: center;
+  background-color: #f0f0f0;
+  display: inline-block;
+  flex-wrap: wrap;
 }
-.rcard:hover{
-    border: 2px solid black;
+.rcard:hover {
+  border: 2px solid black;
+}
+.rcard img {
+  width: 200px;
+  height: 200px;
 }
