@@ -1,4 +1,4 @@
-import {CLOUD_BASE_URL} from "../utils/constants";
+import { CLOUD_BASE_URL } from "../utils/constants";
 const Rcard = (props) => {
   const { resData } = props;
   const { cloudinaryImageId, name, cuisines, avgRating } =

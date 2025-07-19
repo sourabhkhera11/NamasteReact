@@ -1,4 +1,4 @@
-const resList = [
+let resList = [
   {
     card: {
       card: {
@@ -14,7 +14,7 @@ const resList = [
           cuisines: ["Biryani", "Mughlai", "North Indian", "Snacks"],
           avgRating: 4.3,
           parentId: "229129",
-          avgRatingString: "4.3",
+          avgRatingString: "3.8",
           totalRatingsString: "1.7K+",
           promoted: true,
           adTrackingId:
@@ -212,7 +212,7 @@ const resList = [
             "Beverages",
             "Desserts",
           ],
-          avgRating: 4.3,
+          avgRating: 3.5,
           parentId: "1803",
           avgRatingString: "4.3",
           totalRatingsString: "9.0K+",
@@ -317,7 +317,7 @@ const resList = [
           areaName: "Old Delhi",
           costForTwo: "₹300 for two",
           cuisines: ["Biryani", "Mughlai"],
-          avgRating: 4.3,
+          avgRating: 4.9,
           parentId: "482905",
           avgRatingString: "4.3",
           totalRatingsString: "265",
@@ -402,7 +402,7 @@ const resList = [
           areaName: "Connaught Place",
           costForTwo: "₹300 for two",
           cuisines: ["Biryani", "Kebabs", "Rolls"],
-          avgRating: 4.2,
+          avgRating: 3.6,
           parentId: "385250",
           avgRatingString: "4.2",
           totalRatingsString: "466",
@@ -492,7 +492,7 @@ const resList = [
           costForTwo: "₹250 for two",
           cuisines: ["Biryani", "Indian"],
           parentId: "430196",
-          avgRatingString: "--",
+          avgRating: 5,
           sla: {
             deliveryTime: 29,
             lastMileTravel: 1.2,
@@ -576,7 +576,7 @@ const resList = [
           areaName: "Laxmi Nagar",
           costForTwo: "₹300 for two",
           cuisines: ["Chinese"],
-          avgRating: 4.2,
+          avgRating: 2.6,
           veg: true,
           parentId: "585190",
           avgRatingString: "4.2",
